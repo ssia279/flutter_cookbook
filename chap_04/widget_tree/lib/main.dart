@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:widget_tree/views/deep_tree.dart';
+import 'package:widget_tree/views/e_commerce_screen_before.dart';
 import 'package:widget_tree/views/flex_screen.dart';
 import 'package:widget_tree/views/profile_screen.dart';
 
@@ -13,7 +15,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: FlexScreen(),
+      home: ECommerceScreen(),
     );
   }
 }
